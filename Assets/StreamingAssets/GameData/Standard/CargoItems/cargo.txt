@@ -1,0 +1,20 @@
+[
+  {
+    "ID": 1,
+    "Name": "Sugar",
+    "IconPath": null,
+    "Price": 20.0
+  },
+  {
+    "ID": 2,
+    "Name": "Pepper",
+    "IconPath": null,
+    "Price": 40.0
+  },
+  {
+    "ID": 3,
+    "Name": "Beer",
+    "IconPath": null,
+    "Price": 25.0
+  }
+]

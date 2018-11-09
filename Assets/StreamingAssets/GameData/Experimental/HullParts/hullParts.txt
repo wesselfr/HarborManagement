@@ -1,0 +1,22 @@
+[
+  {
+    "ID": 21,
+    "Name": "Front",
+    "ModelPath": "D:/Projects/TestPirateGame/Assets/StreamingAssets/Models/Front.obj",
+    "Price": 20.0,
+    "MovementPenalty": 10.0,
+    "Armor": 10.0,
+    "Damage": 10.0,
+    "DamageType": 1
+  },
+  {
+    "ID": 22,
+    "Name": "Back",
+    "ModelPath": "D:/Projects/TestPirateGame/Assets/StreamingAssets/Models/Back.obj",
+    "Price": 20.0,
+    "MovementPenalty": 10.0,
+    "Armor": 10.0,
+    "Damage": 10.0,
+    "DamageType": 1
+  }
+]

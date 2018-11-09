@@ -1,0 +1,22 @@
+[
+  {
+    "ID": 1,
+    "Name": "Plain Hull",
+    "ModelPath": "D:/Projects/TestPirateGame/Assets/StreamingAssets/Models/PlainHull.obj",
+    "Price": 20.0,
+    "MovementPenalty": 10.0,
+    "Armor": 10.0,
+    "Damage": 10.0,
+    "DamageType": 1
+  },
+  {
+    "ID": 2,
+    "Name": "Canon Hull",
+    "ModelPath": "D:/Projects/TestPirateGame/Assets/StreamingAssets/Models/CannonHull.obj",
+    "Price": 20.0,
+    "MovementPenalty": 10.0,
+    "Armor": 10.0,
+    "Damage": 10.0,
+    "DamageType": 1
+  }
+]

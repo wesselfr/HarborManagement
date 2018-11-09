@@ -1,0 +1,101 @@
+[
+  {
+    "ID": 0,
+    "Name": "Golden Fortune",
+    "HullParts": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ID": 1,
+    "Name": "Black Executioner",
+    "HullParts": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ID": 2,
+    "Name": "The Black Dutchman",
+    "HullParts": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ID": 3,
+    "Name": "The Black Pirate's Dream",
+    "HullParts": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "ID": 4,
+    "Name": "The Sailer",
+    "HullParts": [
+      0,
+      0,
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "ID": 5,
+    "Name": "The Shame",
+    "HullParts": [
+      2,
+      2,
+      5,
+      2,
+      2
+    ]
+  },
+  {
+    "ID": 6,
+    "Name": "The Black Scream",
+    "HullParts": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "ID": 7,
+    "Name": "The Bloody Death",
+    "HullParts": [
+      12,
+      12,
+      12,
+      12,
+      12
+    ]
+  },
+  {
+    "ID": 8,
+    "Name": "The Black Mermaid",
+    "HullParts": [
+      22,
+      2,
+      2,
+      2,
+      21
+    ]
+  }
+]
