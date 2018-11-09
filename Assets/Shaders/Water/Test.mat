@@ -17,15 +17,25 @@ Material:
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _ShoreTex:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Alpha: 0.4
+    - _Alpha: 0.2
     - _RandomHeight: 1.1
     - _RandomSpeed: 2.39
     - _Shininess: 0.89
-    - _WaveHeight: 0.49
+    - _WaveHeight: 0.34
     - _WaveLenght: 0.41
     - _WaveSpeed: 2.05
+    - _isInnerAlphaBlendOrColor: 0
     m_Colors:
-    - _Color: {r: 0.24086288, g: 0.24264705, b: 0.2424994, a: 0.484}
-    - _SpecColor: {r: 0.02784384, g: 0.6667932, b: 0.75735295, a: 0.147}
+    - _BaseColor: {r: 0.54, g: 0.95, b: 0.99, a: 0.5}
+    - _BumpDirection: {r: 1, g: 1, b: -1, a: 1}
+    - _BumpTiling: {r: 1, g: 1, b: -2, a: 3}
+    - _Color: {r: 0, g: 1, b: 0.252975, a: 1}
+    - _Foam: {r: 0.1, g: 0.375, b: 0, a: 0}
+    - _InvFadeParemeter: {r: 0.2, g: 0.39, b: 0.5, a: 1}
+    - _SpecColor: {r: 0, g: 0.98507476, b: 1, a: 0.5176471}

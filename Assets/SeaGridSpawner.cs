@@ -18,15 +18,26 @@ public class SeaGridSpawner : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		for(int x = 0; x < m_XSize; x++)
+        StartCoroutine(GenerateGrid());
+	}
+
+    IEnumerator GenerateGrid()
+    {
+        float xOffset = ((m_SeaXSize / 2) * m_Resolution) - 0.5f;
+        float yOffset = ((m_SeaYSize / 2) * m_Resolution) - 0.5f;
+        for (int x = 0; x < m_XSize; x++)
         {
-            for(int y = 0; y < m_YSize; y++)
+            for (int y = 0; y < m_YSize; y++)
             {
-                GameObject sea = Instantiate(m_SeaObject, new Vector3(x * m_SeaXSize * m_Resolution, 0, y * m_SeaYSize * m_Resolution), Quaternion.identity);
-                sea.transform.parent = this.transform;
+                GameObject sea = Instantiate(m_SeaObject, transform.position + new Vector3(x * xOffset, 0, y * yOffset), Quaternion.identity);
+                //if(x != 0) { transform.position -= Vector3.left * 0.5f; }
+                //if(y!= 0) { transform.position -= Vector3.back * 0.5f; }
+                //sea.transform.parent = this.transform;
+
+                yield return new WaitForEndOfFrame();
             }
         }
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {

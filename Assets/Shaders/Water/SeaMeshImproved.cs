@@ -23,7 +23,7 @@ public class SeaMeshImproved : MonoBehaviour
 
     private void Generate()
     {
-        GetComponent<MeshFilter>().mesh = m_Mesh = new Mesh();
+        m_Mesh = new Mesh();
         m_Mesh.name = "Procedural Grid";
 
         List<Vector3> vertices = new List<Vector3>();
@@ -31,7 +31,7 @@ public class SeaMeshImproved : MonoBehaviour
         {
             for (int x = 0; x < m_XSize; x++)
             {
-                vertices.Add(new Vector3(x * m_Resolution, 0, y * m_Resolution));
+                vertices.Add(new Vector3(x + m_Resolution, 0, y + m_Resolution) * 0.5f) ;
             }
         }
 
@@ -63,18 +63,9 @@ public class SeaMeshImproved : MonoBehaviour
 
 
         m_Mesh.triangles = triangles.ToArray();
-        m_Mesh.RecalculateNormals();
-    }
+        m_Mesh.RecalculateTangents();
+        m_Mesh.RecalculateBounds();
 
-    private void OnDrawGizmos()
-    {
-        if(m_Vertices != null)
-        {
-            foreach(Vector3 vert in m_Vertices)
-            {
-                Gizmos.DrawSphere(vert, 0.1f);
-            }
-        }
+        GetComponent<MeshFilter>().mesh = m_Mesh;
     }
-
 }

@@ -18,5 +18,15 @@
     "Armor": 10.0,
     "Damage": 10.0,
     "DamageType": 1
+  },
+  {
+    "ID": 3,
+    "Name": "Plain Hull Large",
+    "ModelPath": "E:/HarborGame/HarborManagement/Assets/StreamingAssets/Models/PlainHullLarge.obj",
+    "Price": 20.0,
+    "MovementPenalty": 10.0,
+    "Armor": 10.0,
+    "Damage": 10.0,
+    "DamageType": 1
   }
 ]

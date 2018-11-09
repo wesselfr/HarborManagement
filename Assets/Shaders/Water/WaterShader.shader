@@ -78,10 +78,10 @@ Shader "Custom/WaterShader" {
 		
 		v0.y += phase0 + phase0_1;
 
-		v.vertex.xyz = mul((float3x3)unity_WorldToObject, v0);
+		v.vertex.xyz = v0;
 
 		v2g OUT;
-		OUT.pos = v.vertex;
+		OUT.pos = mul(unity_WorldToObject, v.vertex);
 		OUT.norm = v.normal;
 		OUT.uv = v.texcoord;
 		return OUT;

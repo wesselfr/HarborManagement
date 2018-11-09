@@ -22,7 +22,7 @@ public class RotateCamera : MonoBehaviour {
     {
         if (Input.GetMouseButton(0))
         {
-            if (Input.GetKey(KeyCode.LeftShift))
+            if (Input.GetKey(KeyCode.LeftAlt))
             {
                 _Target.position = new Vector3(_Target.position.x +  Input.GetAxis("Mouse X") * _Speed, _Target.position.y, _Target.position.z + Input.GetAxis("Mouse Y"));
                 transform.position = new Vector3(transform.position.x + Input.GetAxis("Mouse X") * _Speed, transform.position.y, transform.position.z + Input.GetAxis("Mouse Y"));
